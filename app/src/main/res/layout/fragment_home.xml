@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome to SHPE UH"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="16dp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The Society of Hispanic Professional Engineers at the University of Houston (SHPE UH) is dedicated to empowering the Hispanic community to realize its fullest potential and to impact the world through STEM awareness, access, support, and development."
+            android:textSize="16sp"
+            android:paddingBottom="16dp"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/buttonGallery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gallery"
+            android:padding="16dp"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/buttonAbout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About"
+            android:padding="16dp"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/buttonEvents"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Events"
+            android:padding="16dp"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/buttonSponsors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sponsors"
+            android:padding="16dp"
+            android:layout_marginTop="8dp" />
+
+    </LinearLayout>
+</ScrollView>

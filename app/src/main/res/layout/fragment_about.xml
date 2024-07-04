@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About SHPE UH"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="16dp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The Society of Hispanic Professional Engineers at the University of Houston (SHPE UH) is dedicated to empowering the Hispanic community to realize its fullest potential and to impact the world through STEM awareness, access, support, and development."
+            android:textSize="16sp"
+            android:paddingBottom="16dp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mission"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SHPE UH's mission is to change lives by empowering the Hispanic community to realize its fullest potential and to impact the world through STEM awareness, access, support, and development."
+            android:textSize="16sp"
+            android:paddingBottom="16dp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vision"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SHPE UH's vision is a world where Hispanics are highly valued and influential as the leading innovators, scientists, mathematicians, and engineers."
+            android:textSize="16sp"
+            android:paddingBottom="16dp"
+            android:textColor="@color/black" />
+
+        <!-- Add more sections as needed -->
+
+    </LinearLayout>
+</ScrollView>
